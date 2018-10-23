@@ -28,10 +28,10 @@
 
         <source-file src="src/android/BraintreePlugin.java" target-dir="src/net/justincredible" />
 
-	<!-- Causes issues when building for Android 6.3+  -->
+	<!-- Causes issues when building for Android 6.3+
         <framework src="com.android.support:support-v13:25.+" />
         <framework src="com.android.support:appcompat-v7:25.+" />
-	<!-- -->
+	-->
 	    
         <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
 
